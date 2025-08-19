@@ -25,7 +25,7 @@ layers:
   - L
   - ;
   - ''''
-  - LCTRL
+  - $$mdi:apple-keyboard-control$$
   - Z
   - X
   - C
@@ -38,11 +38,11 @@ layers:
   - /
   - {t: ▽, type: trans}
   - {t: LEFT WIN, h: LEFT ALT}
-  - SPACE
+  - $$mdi:keyboard-space$$
   - '1'
-  - BACKSPACE
-  - SPACE
-  - DELETE
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-space$$
+  - $$mdi:backspace-reverse-outline$$
   '1':
   - {t: ▽, type: trans}
   - '1'
@@ -62,10 +62,10 @@ layers:
   - '8'
   - '9'
   - '0'
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -240,9 +240,9 @@ combos:
 - p: [8, 7, 6]
   k: '#'
 - p: [19, 20]
-  k: TAB
+  k: $$mdi:keyboard-tab$$
 - p: [20, 21, 19, 18]
-  k: ENTER
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [7, 8, 9]
   k: HOME
 - p: [30, 33]
@@ -256,7 +256,7 @@ combos:
 - p: [32, 33, 31]
   k: '&mkp MCLK'
 - p: [1, 2, 3, 37, 10, 9, 8, 40, 7, 4]
-  k: BT CLR ALL
+  k: $$mdi:bluetooth-off$$
 - p: [13, 14]
   k: func
 - p: [15, 16]
