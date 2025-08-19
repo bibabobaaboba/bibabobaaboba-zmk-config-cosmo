@@ -62,11 +62,11 @@ layers:
   - '8'
   - '9'
   - '0'
+  - {t: ▽, type: trans}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -93,22 +93,23 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '7'
   - '8'
   - '9'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '-'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '4'
   - '5'
   - '6'
-  - {t: ▽, type: trans}
+  - +
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -120,7 +121,6 @@ layers:
   - '1'
   - '2'
   - '3'
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -241,7 +241,7 @@ combos:
   k: '#'
 - p: [19, 20]
   k: $$mdi:keyboard-tab$$
-- p: [20, 21, 19, 18]
+- p: [20, 21, 19, 22]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [7, 8, 9]
   k: HOME
