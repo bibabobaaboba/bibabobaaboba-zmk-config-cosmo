@@ -1,5 +1,5 @@
 name: Draw ZMK keymaps
-on:
+on: [push, workflow_dispatch]
   workflow_run:
     workflows: ["Build ZMK firmware"]
     types:
