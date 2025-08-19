@@ -1,0 +1,263 @@
+layout: {zmk_keyboard: cosmo}
+layers:
+  '0':
+  - ESCAPE
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - '['
+  - LEFT SHIFT
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - LCTRL
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - {t: ▽, type: trans}
+  - {t: LEFT WIN, h: LEFT ALT}
+  - SPACE
+  - '1'
+  - BACKSPACE
+  - SPACE
+  - DELETE
+  '1':
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  nums:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - '4'
+  - '5'
+  - '6'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
+  - {t: ▽, type: trans}
+  func:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F4
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F5
+  - F6
+  - F7
+  - F8
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F9
+  - F10
+  - F11
+  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [22, 21]
+  k: .
+- p: [22, 21, 19]
+  k: ':'
+- p: [8, 21]
+  k: ''''
+- p: [21, 20]
+  k: ','
+- p: [21, 20, 19]
+  k: ;
+- p: [21, 7]
+  k: '"'
+- p: [30, 31]
+  k: _
+- p: [6, 7]
+  k: '='
+- p: [19, 18]
+  k: '-'
+- p: [19, 18, 20]
+  k: +
+- p: [6, 39]
+  k: '['
+- p: [39, 19]
+  k: (
+- p: [31, 39]
+  k: '{'
+- p: [39, 7]
+  k: ']'
+- p: [39, 20]
+  k: )
+- p: [39, 32]
+  k: '}'
+- p: [9, 20, 31]
+  k: /
+- p: [7, 20, 33]
+  k: \
+- p: [19, 8, 21]
+  k: ^
+- p: [19, 8]
+  k: <
+- p: [7, 20]
+  k: '>'
+- p: [18, 17]
+  k: '&caps_word'
+- p: [40, 19, 8]
+  k: '|'
+- p: [19, 10]
+  k: '~'
+- p: [19, 6]
+  k: '`'
+- p: [7, 33]
+  k: '%'
+- p: [7, 8, 21]
+  k: '!'
+- p: [9, 20, 19]
+  k: '!'
+- p: [31, 32, 9]
+  k: $
+- p: [7, 20, 21]
+  k: '@'
+- p: [18, 20]
+  k: '&'
+- p: [30, 31, 32]
+  k: '*'
+- p: [8, 7, 6]
+  k: '#'
+- p: [19, 20]
+  k: TAB
+- p: [20, 21, 19, 18]
+  k: ENTER
+- p: [7, 8, 9]
+  k: HOME
+- p: [30, 33]
+  k: PAGE DOWN
+- p: [18, 21]
+  k: PAGE UP
+- p: [31, 32]
+  k: '&mkp LCLK'
+- p: [32, 33]
+  k: '&mkp RCLK'
+- p: [32, 33, 31]
+  k: '&mkp MCLK'
+- p: [1, 2, 3, 37, 10, 9, 8, 40, 7, 4]
+  k: BT CLR ALL
+- p: [13, 14]
+  k: func
+- p: [15, 16]
+  k: nums
