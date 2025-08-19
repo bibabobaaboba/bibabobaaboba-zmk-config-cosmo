@@ -1,0 +1,26 @@
+if SHIELD_COSMO_LEFT || SHIELD_COSMO_RIGHT
+
+config ZMK_SPLIT
+	default y
+	
+endif
+
+if SHIELD_COSMO_RIGHT
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default n
+
+config ZMK_KEYBOARD_NAME
+	default "cosmo"
+
+endif
+
+if SHIELD_COSMO_LEFT
+
+config ZMK_SPLIT_BLE_ROLE_CENTRAL
+	default y
+
+config ZMK_KEYBOARD_NAME
+	default "cosmo"
+
+endif
