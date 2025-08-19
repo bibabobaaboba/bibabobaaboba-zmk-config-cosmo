@@ -20,4 +20,4 @@ jobs:
       config_path: "keymap_drawer.config.yaml"
       output_folder: "keymap-drawer"
       parse_args: ""
-      draw_args: "cosmo:'-j config/info.json -l default_transform'"
+      draw_args: "cosmo:'-j config/cosmo.json -l default_transform'"
